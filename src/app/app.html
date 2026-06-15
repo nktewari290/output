@@ -1,0 +1,148 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="flexCenter justify headerPadding header">
+    <div>
+      <span>Logo</span>
+    </div>
+
+    <div class="flexCenter searchSection">
+      <mat-form-field appearance="outline">
+        <mat-select>
+          <mat-option value="category" selected>Category</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div class="flexCenter positionRelative wrapper">
+        <input placeholder="Search" />
+        <button class="searchButton">
+          <span class="material-symbols-outlined">
+            search
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="flexCenter">
+      <button class="buttonStyle">
+        <span class="material-symbols-outlined">
+          add_alert
+        </span>
+      </button>
+
+      <button class="buttonStyle">
+        <span class="material-symbols-outlined">
+          account_circle
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="flexCenter">
+    <div class="left">
+      <div class="sideMenuLogo">
+        <span class="material-symbols-outlined">
+          chevron_forward
+        </span>
+      </div>
+      <div class="sideMenuLogo">
+        <span class="material-symbols-outlined">
+          image_aspect_ratio
+        </span>
+      </div>
+      <div class="sideMenuLogo">
+        <span class="material-symbols-outlined">
+          space_dashboard_2
+        </span>
+      </div>
+      <div class="sideMenuLogo">
+        <span class="material-symbols-outlined">
+          add_box
+        </span>
+      </div>
+      <div class="sideMenuLogo">
+        <span class="material-symbols-outlined">
+          settings_account_box
+        </span>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="navigatedPages">
+        <span class="routes">Home</span>
+        <span class="indicator">></span>
+        <span class="routes">Admin</span>
+        <span class="indicator">></span>
+        <span class="routes">Access Control</span>
+      </div>
+
+      <div class="card flexColumn">
+        <div class="cardHeader">
+          Maintain Role Level Access Control
+        </div>
+
+        <div class="justifySpaceAround inputFieldSection">
+          <div>
+            <span class="searchLabel">Search Criteria</span>
+          </div>
+
+          <div class="padding20 flexCenter justifySpaceAround inputDivStyle">
+            <div class="flexColumn">
+              <label class="inputLabel">Role <span class="required">*</span></label>
+              <mat-form-field appearance="outline">
+
+                <input matInput />
+              </mat-form-field>
+            </div>
+
+            <div class="flexColumn">
+              <label class="inputLabel">Access Control Type<span class="required">*</span></label>
+
+              <mat-form-field appearance="outline">
+
+
+                <mat-select>
+                  <mat-option value="admin">Admin</mat-option>
+                  <mat-option value="user">User</mat-option>
+                  <mat-option value="guest">Guest</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+
+            <div class="flexColumn">
+              <label class="inputLabel">Case Category<span class="required">*</span></label>
+
+              <mat-form-field appearance="outline">
+
+                <input matInput />
+              </mat-form-field>
+            </div>
+
+            <div class="flexColumn">
+              <label class="inputLabel">Case Sub Category<span class="required">*</span></label>
+
+              <mat-form-field appearance="outline">
+
+                <input matInput />
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="submitSection">
+            <button class="clearButton">
+              Clear
+            </button>
+
+            <button mat-flat-button color="primary searchButton">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
