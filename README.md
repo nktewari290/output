@@ -1,16 +1,59 @@
 # Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+This repository contains an Angular application generated with Angular CLI 21.2.7.
 
-## Development server
+## Prerequisites
 
-To start a local development server, run:
+- Node.js 18+ installed
+- npm installed
+- (Optional) Angular CLI installed globally:
 
 ```bash
-ng serve
+npm install -g @angular/cli
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Install dependencies
+
+From the project root, run:
+
+```bash
+npm install
+```
+
+## Run the app locally
+
+Start the development server with:
+
+```bash
+npm start
+```
+
+Then open your browser at:
+
+```text
+http://localhost:4200/
+```
+
+The app will automatically reload when source files change.
+
+## Useful commands
+
+- `npm start` — run the app locally with live reload
+- `npm run build` — build the app for production
+- `npm run watch` — rebuild continuously during development
+- `npm test` — run unit tests
+
+## Build output
+
+Production build artifacts are generated in the `dist/` folder.
+
+## Notes
+
+If Angular CLI is not installed globally, use:
+
+```bash
+npx ng serve
+```
 
 ## Code scaffolding
 

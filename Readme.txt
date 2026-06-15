@@ -1,8 +1,9 @@
-Please follow the below steps:
+Follow these simple steps:
 
-1) Download the zip file.
-2) Extract the folder
-3) Open the folder in VSCode
-4) Run 'npm install' to install the dependencies
-5) Run 'ng serve --open'. It will run the application and open it in the browser.
-6) You can visit 'http://localhost:4200/' to view the UI.
+1) Open the project folder in VS Code.
+2) Open a terminal inside VS Code.
+3) Type `npm install` and press Enter.
+4) After that finishes, type `npm start` and press Enter.
+5) Open your browser and go to `http://localhost:4200/`.
+
+The app should appear in the browser.
